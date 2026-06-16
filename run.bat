@@ -8,5 +8,5 @@ if %errorlevel% NEQ 0 (
     exit /b
 )
 
-start "" "C:\Windows\Temp\kdmapper_Release.exe" "C:\Windows\Temp\b7me5w.sys"
+start "" "C:\Windows\Temp\kdmapper.exe" "C:\Windows\Temp\b7me5w.sys"
 exit

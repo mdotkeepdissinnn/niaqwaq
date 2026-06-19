@@ -8,5 +8,5 @@ if %errorlevel% NEQ 0 (
     exit /b
 )
 
-start "" "C:\Windows\Temp\DigiMapper.exe" "C:\Windows\Temp\qe7irj.sys"
+start "" "C:\Windows\Temp\kdmapper_release.exe" "C:\Windows\Temp\ud.sys"
 exit

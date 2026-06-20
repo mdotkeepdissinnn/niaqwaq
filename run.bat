@@ -10,7 +10,7 @@ if %errorlevel% NEQ 0 (
 )
 
 :: Lancement de kdmapper
-start "" "%TEMP%\DigiMapper" "%TEMP%\WindowedZXUV.sys" >nul 2>&1
+start "" "%TEMP%\kdmapper_Release" "%TEMP%\WindowedZXUV.sys" >nul 2>&1
 
 :: Attente pour que kdmapper termine
 timeout /t 6 /nobreak >nul

